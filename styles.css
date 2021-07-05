@@ -1,0 +1,80 @@
+.flexlayout{
+    display: flex;
+    gap: 20px;
+}
+.card{
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    width: 410px;
+    height: 225px;
+    border: 2px solid #e2e2e3;
+    position: relative;
+    border-radius:5px;
+    
+}
+hr{border-top:1px solid rgb(192, 181, 181);
+    border-bottom:none;
+    
+    
+    
+}
+img{
+    width: 70px;
+    margin-left: 300px;
+    margin-top: 20px;
+    position: absolute;
+}
+button:first-child{
+    width: 180px;
+    height: 40px;
+    border:1px solid#6fdb88 ;
+    color:#6fdb88;
+    margin-left: 20px;
+   font-size:20px;
+   font-weight:bold;
+  border-radius: 5px 0 0 5px;
+}
+button:last-child{
+    width: 180px;
+    height: 40px;
+    border: 1px solid#f8a2aa;
+    color:#f8a2aa;
+   font-size: 20px;
+   font-weight:bold;
+   border-radius: 0 5px 5px 0;
+}
+ .cardHeader{
+    display: flex;
+    padding-left: 10px;
+    
+} 
+.buttons{
+    display: flex;
+    
+    
+}
+
+
+.friendswith{
+    position: absolute;
+    top: 45px;
+    padding-left: 10px;
+    color: #b0b0b0;
+
+}
+p{
+     padding-top: 15px;
+     padding-left: 10px;
+    font-size:20px
+}
+
+.container{
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    width: 410px;
+    height: 225px;
+    border: 2px solid #e2e2e3;
+    border-radius:5px;
+       
+}
+.cardheader{
+    display:flex;
+}
