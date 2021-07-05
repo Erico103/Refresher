@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Refresher</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="html.css">
 </head>
 <body>
     <h1>Flex lay-out</h1>
@@ -14,7 +15,7 @@
     <div class="card">
         <div class="cardHeader">
             <h2>Carla Snepvangers</h2>
-            <img src="./images/profpic1.jpg" alt="carla">
+            <img class="prof" src="./images/profpic1.jpg" alt="carla">
         </div>
         <div class="friendswith">
         <h3>Friends with marijn</h3>
@@ -29,7 +30,7 @@
     <div class="card">
         <div class="cardHeader">
             <h2>Marijn Pijnenborg</h2>
-            <img src="./images/profpic2.jpg" alt="carla">
+            <img class="prof" src="./images/profpic2.jpg" alt="carla">
         </div>
         <div class="friendswith">
         <h3>New member</h3>
@@ -42,6 +43,62 @@
         </div>
     </div>
     </div>
+    <h1>Grid lay-out</h1>
+    <main>
+        <article>
+            <div class="card-heading">
+                <span>
+                    <h2 class="card-title">Carla Snepvangers</h2>
+                    <p class="card-subtitle">Friends with Marijn</p>
+                </span>
+            </div>
+            <div>
+                <img class="card-avatar" src="./images/profpic1.jpg" alt="avatar van Carla" />
+            </div>
+            <div class="card-body">
+                <p class="card-text">
+                    Carla requested permission to view your contact details 
+                </p>
+                <hr>
+            </div>
+            
+            <div class="card-buttons">
+                
+                <button class="green-button">Approve</button>
+                <button class="red-button">Decline</button>
+            </div>
+            
+        </article>
+        
+
+    
+        <article>
+            <div class="card-heading">
+                <span>
+                    <h2 class="card-title">Marijn Pijnenborg</h2>
+                    <p class="card-subtitle">New member</p>
+                </span>
+            </div>
+            <div>
+                <img class="card-avatar" src="./images/profpic2.jpg" alt="avatar van Carla" />
+            </div>
+            <div class="card-body">
+                <p class="card-text">
+                    Marijn wants to add you to the group best friends
+                </p>
+                <hr>
+            </div>
+            
+            <div class="card-buttons">
+                
+                <button class="green-button">Approve</button>
+                <button class="red-button">Decline</button>
+            </div>
+            
+        </article>
+        
+
+    </main>
     
    
 </body>
